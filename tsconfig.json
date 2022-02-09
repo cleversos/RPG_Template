@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "es2020",
+    "target": "es2015",
+    "jsx": "react",
+    "allowJs": true,
+    "strict": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "typeRoots": ["./node_modules/@types"]
+  },
+  // "include": ["**/*"],
+  "include": ["src/**/*"],
+  "exclude": ["enemyFolderTemplate", "dist", "node_modules", "public"]
+}
